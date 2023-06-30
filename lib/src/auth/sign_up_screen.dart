@@ -8,9 +8,9 @@ class SignUpScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: CustomColors.customSwatchColor,
-      body: const Column(
+      body: Column(
         children: [
-          Expanded(
+          const Expanded(
             child: Center(
               child: Text(
                 'Cadastro',
@@ -23,6 +23,16 @@ class SignUpScreen extends StatelessWidget {
           ),
 
           // Form
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 32,
+              vertical: 40,
+            ),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.vertical(top: Radius.circular(45)),
+            ),
+          )
         ],
       ),
     );
