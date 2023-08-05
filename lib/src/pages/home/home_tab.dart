@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:greengrocer/src/config/app_data.dart' as app_data;
 import 'package:greengrocer/src/config/custom_colors.dart';
-import 'package:greengrocer/src/pages/home/item_tile.dart';
+import 'package:greengrocer/src/pages/home/components/item_tile.dart';
 
 import 'components/category_tile.dart';
 
