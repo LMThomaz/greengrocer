@@ -16,6 +16,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white.withAlpha(190),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.green,
+          elevation: 2,
+          shadowColor: Colors.black,
+          titleTextStyle: TextStyle(
+            fontSize: 24,
+            color: Colors.white,
+          ),
+        ),
       ),
       debugShowCheckedModeBanner: false,
       home: const SignInScreen(),
